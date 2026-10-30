@@ -1,0 +1,11 @@
+# Dependensi untuk notebook dan pelatihan.
+# Versi akan di-pin setelah 00_setup.ipynb mencatat versi Colab di results/environment.json,
+# supaya angka di laporan bisa direproduksi.
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+tensorflow
+kagglehub

@@ -1,0 +1,32 @@
+# Data mentah (diunduh otomatis, tidak di-commit)
+data/raw/*
+!data/raw/.gitkeep
+
+# Kredensial
+kaggle.json
+.env
+*.token
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Artefak sementara
+*.zip
+models/checkpoints/
+logs/
+*.log
+
+# Video (simpan di YouTube/Drive)
+*.mp4
+*.mov
+
+# OS
+.DS_Store
+Thumbs.db
